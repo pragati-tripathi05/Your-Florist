@@ -32,7 +32,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -79,4 +79,53 @@ header .fa-bars{
     cursor: pointer;
     border: .1rem solid rgba(0,0,0,.3);
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+}
+
+
+@media(max-width: 768px){
+    html .fa-bars{
+        display:block;
+    }
+    header .navbar{
+        position:absolute;
+        top: 100%;
+        left: 0%;
+        right:0%;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background: #fff;
+        border: .1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+}
+
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+    }
 }
