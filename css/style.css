@@ -35,3 +35,17 @@ header{
     /* border: 2px solid red; */
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
+
+header .logo span{
+    color: var(--pink);
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: var(--pink);
+}
