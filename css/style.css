@@ -148,6 +148,12 @@ section{
     header{
         padding: 2rem;
     }
+    section{
+        padding: 2rem;
+    }
+    .home{
+        background-position: left;
+    }
 }
 
 
