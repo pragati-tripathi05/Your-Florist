@@ -21,6 +21,11 @@ html{
     overflow-x: hidden;
 }
 
+.logo{
+    text-shadow:2px 2px 5px #8f8f8f;
+    color:#fff;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -108,6 +113,23 @@ section{
 .home .content span{
     font-size: 3.5rem;
     color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    color: #999;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
 }
 
 
