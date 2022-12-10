@@ -137,6 +137,7 @@ section{
 
 .btn:hover{
     background: var(--pink);
+    font-weight: bold;
 }
 
 
