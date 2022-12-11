@@ -140,6 +140,19 @@ section{
     font-weight: bold;
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(225, 51, 153, .05);
+}
+
+.heading span{
+    color: var(--pink);
+}
+
 
 /* media queries */
 @media(max-width: 991px){
@@ -193,5 +206,8 @@ section{
 @media(max-width:450px){
     html{
         font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
     }
 }
